@@ -1,0 +1,313 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		659A84931624095D00F1570C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 659A84921624095D00F1570C /* UIKit.framework */; };
+		659A84951624095D00F1570C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 659A84941624095D00F1570C /* Foundation.framework */; };
+		659A84971624095D00F1570C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 659A84961624095D00F1570C /* CoreGraphics.framework */; };
+		659A849D1624095D00F1570C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 659A849B1624095D00F1570C /* InfoPlist.strings */; };
+		659A849F1624095D00F1570C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 659A849E1624095D00F1570C /* main.m */; };
+		659A84A31624095D00F1570C /* FRAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 659A84A21624095D00F1570C /* FRAppDelegate.m */; };
+		659A84A61624095D00F1570C /* FRRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 659A84A51624095D00F1570C /* FRRootViewController.m */; };
+		659A84A91624095D00F1570C /* FRDataViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 659A84A81624095D00F1570C /* FRDataViewController.m */; };
+		659A84AC1624095D00F1570C /* FRModelController.m in Sources */ = {isa = PBXBuildFile; fileRef = 659A84AB1624095D00F1570C /* FRModelController.m */; };
+		659A84AF1624095D00F1570C /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 659A84AD1624095D00F1570C /* MainStoryboard_iPhone.storyboard */; };
+		659A84B21624095D00F1570C /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 659A84B01624095D00F1570C /* MainStoryboard_iPad.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		659A848E1624095D00F1570C /* IPadDoorBuilder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IPadDoorBuilder.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		659A84921624095D00F1570C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		659A84941624095D00F1570C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		659A84961624095D00F1570C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		659A849A1624095D00F1570C /* IPadDoorBuilder-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "IPadDoorBuilder-Info.plist"; sourceTree = "<group>"; };
+		659A849C1624095D00F1570C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		659A849E1624095D00F1570C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		659A84A01624095D00F1570C /* IPadDoorBuilder-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "IPadDoorBuilder-Prefix.pch"; sourceTree = "<group>"; };
+		659A84A11624095D00F1570C /* FRAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FRAppDelegate.h; sourceTree = "<group>"; };
+		659A84A21624095D00F1570C /* FRAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FRAppDelegate.m; sourceTree = "<group>"; };
+		659A84A41624095D00F1570C /* FRRootViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FRRootViewController.h; sourceTree = "<group>"; };
+		659A84A51624095D00F1570C /* FRRootViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FRRootViewController.m; sourceTree = "<group>"; };
+		659A84A71624095D00F1570C /* FRDataViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FRDataViewController.h; sourceTree = "<group>"; };
+		659A84A81624095D00F1570C /* FRDataViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FRDataViewController.m; sourceTree = "<group>"; };
+		659A84AA1624095D00F1570C /* FRModelController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FRModelController.h; sourceTree = "<group>"; };
+		659A84AB1624095D00F1570C /* FRModelController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FRModelController.m; sourceTree = "<group>"; };
+		659A84AE1624095D00F1570C /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
+		659A84B11624095D00F1570C /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		659A848B1624095C00F1570C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				659A84931624095D00F1570C /* UIKit.framework in Frameworks */,
+				659A84951624095D00F1570C /* Foundation.framework in Frameworks */,
+				659A84971624095D00F1570C /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		659A84831624095C00F1570C = {
+			isa = PBXGroup;
+			children = (
+				659A84981624095D00F1570C /* IPadDoorBuilder */,
+				659A84911624095D00F1570C /* Frameworks */,
+				659A848F1624095D00F1570C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		659A848F1624095D00F1570C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				659A848E1624095D00F1570C /* IPadDoorBuilder.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		659A84911624095D00F1570C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				659A84921624095D00F1570C /* UIKit.framework */,
+				659A84941624095D00F1570C /* Foundation.framework */,
+				659A84961624095D00F1570C /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		659A84981624095D00F1570C /* IPadDoorBuilder */ = {
+			isa = PBXGroup;
+			children = (
+				659A84A11624095D00F1570C /* FRAppDelegate.h */,
+				659A84A21624095D00F1570C /* FRAppDelegate.m */,
+				659A84A41624095D00F1570C /* FRRootViewController.h */,
+				659A84A51624095D00F1570C /* FRRootViewController.m */,
+				659A84A71624095D00F1570C /* FRDataViewController.h */,
+				659A84A81624095D00F1570C /* FRDataViewController.m */,
+				659A84AA1624095D00F1570C /* FRModelController.h */,
+				659A84AB1624095D00F1570C /* FRModelController.m */,
+				659A84AD1624095D00F1570C /* MainStoryboard_iPhone.storyboard */,
+				659A84B01624095D00F1570C /* MainStoryboard_iPad.storyboard */,
+				659A84991624095D00F1570C /* Supporting Files */,
+			);
+			path = IPadDoorBuilder;
+			sourceTree = "<group>";
+		};
+		659A84991624095D00F1570C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				659A849A1624095D00F1570C /* IPadDoorBuilder-Info.plist */,
+				659A849B1624095D00F1570C /* InfoPlist.strings */,
+				659A849E1624095D00F1570C /* main.m */,
+				659A84A01624095D00F1570C /* IPadDoorBuilder-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		659A848D1624095C00F1570C /* IPadDoorBuilder */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 659A84B51624095D00F1570C /* Build configuration list for PBXNativeTarget "IPadDoorBuilder" */;
+			buildPhases = (
+				659A848A1624095C00F1570C /* Sources */,
+				659A848B1624095C00F1570C /* Frameworks */,
+				659A848C1624095C00F1570C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = IPadDoorBuilder;
+			productName = IPadDoorBuilder;
+			productReference = 659A848E1624095D00F1570C /* IPadDoorBuilder.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		659A84851624095C00F1570C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = FR;
+				LastUpgradeCheck = 0440;
+				ORGANIZATIONNAME = "Feather River";
+			};
+			buildConfigurationList = 659A84881624095C00F1570C /* Build configuration list for PBXProject "IPadDoorBuilder" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 659A84831624095C00F1570C;
+			productRefGroup = 659A848F1624095D00F1570C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				659A848D1624095C00F1570C /* IPadDoorBuilder */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		659A848C1624095C00F1570C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				659A849D1624095D00F1570C /* InfoPlist.strings in Resources */,
+				659A84AF1624095D00F1570C /* MainStoryboard_iPhone.storyboard in Resources */,
+				659A84B21624095D00F1570C /* MainStoryboard_iPad.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		659A848A1624095C00F1570C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				659A849F1624095D00F1570C /* main.m in Sources */,
+				659A84A31624095D00F1570C /* FRAppDelegate.m in Sources */,
+				659A84A61624095D00F1570C /* FRRootViewController.m in Sources */,
+				659A84A91624095D00F1570C /* FRDataViewController.m in Sources */,
+				659A84AC1624095D00F1570C /* FRModelController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		659A849B1624095D00F1570C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				659A849C1624095D00F1570C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		659A84AD1624095D00F1570C /* MainStoryboard_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				659A84AE1624095D00F1570C /* en */,
+			);
+			name = MainStoryboard_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		659A84B01624095D00F1570C /* MainStoryboard_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				659A84B11624095D00F1570C /* en */,
+			);
+			name = MainStoryboard_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		659A84B31624095D00F1570C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		659A84B41624095D00F1570C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		659A84B61624095D00F1570C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "IPadDoorBuilder/IPadDoorBuilder-Prefix.pch";
+				INFOPLIST_FILE = "IPadDoorBuilder/IPadDoorBuilder-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		659A84B71624095D00F1570C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "IPadDoorBuilder/IPadDoorBuilder-Prefix.pch";
+				INFOPLIST_FILE = "IPadDoorBuilder/IPadDoorBuilder-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		659A84881624095C00F1570C /* Build configuration list for PBXProject "IPadDoorBuilder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				659A84B31624095D00F1570C /* Debug */,
+				659A84B41624095D00F1570C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		659A84B51624095D00F1570C /* Build configuration list for PBXNativeTarget "IPadDoorBuilder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				659A84B61624095D00F1570C /* Debug */,
+				659A84B71624095D00F1570C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 659A84851624095C00F1570C /* Project object */;
+}
