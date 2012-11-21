@@ -30,8 +30,13 @@
     self = [super init];
     if (self) {
         // Create the data model.
-        NSDateFormatter *dateFormatter = [[NSDateFormatter alloc] init];
-        _pageData = [[dateFormatter monthSymbols] copy];
+        _pageData = [NSArray arrayWithObjects:[NSString stringWithFormat:@"App-Bty-LAK430bMO.png"],
+                     [NSString stringWithFormat:@"App-Bty-MED248bCY.png"],
+                     [NSString stringWithFormat:@"App-Bty-MOR425zCS.png"],
+                     [NSString stringWithFormat:@"App-Bty-PRS445pCL.png"],
+                     [NSString stringWithFormat:@"App-Bty-SVD460zLO.png"],
+                     [NSString stringWithFormat:@"App-Bty-TOR550WWO.png"],
+                     nil];
     }
     return self;
 }

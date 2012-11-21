@@ -7,6 +7,41 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6529C28416560AFC004A8D32 /* SIDELITE1.png in Resources */ = {isa = PBXBuildFile; fileRef = 6529C27516560AFB004A8D32 /* SIDELITE1.png */; };
+		6529C28516560AFC004A8D32 /* SIDELITE2.png in Resources */ = {isa = PBXBuildFile; fileRef = 6529C27616560AFB004A8D32 /* SIDELITE2.png */; };
+		6529C28616560AFC004A8D32 /* SIDELITE3.png in Resources */ = {isa = PBXBuildFile; fileRef = 6529C27716560AFB004A8D32 /* SIDELITE3.png */; };
+		6529C28716560AFC004A8D32 /* SIDELITE4.png in Resources */ = {isa = PBXBuildFile; fileRef = 6529C27816560AFB004A8D32 /* SIDELITE4.png */; };
+		6529C28816560AFC004A8D32 /* SIDELITE5.png in Resources */ = {isa = PBXBuildFile; fileRef = 6529C27916560AFB004A8D32 /* SIDELITE5.png */; };
+		6529C28916560AFC004A8D32 /* SIDELITE6.png in Resources */ = {isa = PBXBuildFile; fileRef = 6529C27A16560AFB004A8D32 /* SIDELITE6.png */; };
+		6529C28A16560AFC004A8D32 /* SIDELITE7.png in Resources */ = {isa = PBXBuildFile; fileRef = 6529C27B16560AFB004A8D32 /* SIDELITE7.png */; };
+		6529C28B16560AFC004A8D32 /* SIDELITE8.png in Resources */ = {isa = PBXBuildFile; fileRef = 6529C27C16560AFB004A8D32 /* SIDELITE8.png */; };
+		6529C28C16560AFC004A8D32 /* SIDELITE9.png in Resources */ = {isa = PBXBuildFile; fileRef = 6529C27D16560AFB004A8D32 /* SIDELITE9.png */; };
+		6529C28D16560AFC004A8D32 /* SIDELITE10.png in Resources */ = {isa = PBXBuildFile; fileRef = 6529C27E16560AFB004A8D32 /* SIDELITE10.png */; };
+		6529C28E16560AFC004A8D32 /* SIDELITE11.png in Resources */ = {isa = PBXBuildFile; fileRef = 6529C27F16560AFB004A8D32 /* SIDELITE11.png */; };
+		6529C28F16560AFC004A8D32 /* SIDELITE12.png in Resources */ = {isa = PBXBuildFile; fileRef = 6529C28016560AFB004A8D32 /* SIDELITE12.png */; };
+		6529C29016560AFC004A8D32 /* SIDELITE13.png in Resources */ = {isa = PBXBuildFile; fileRef = 6529C28116560AFB004A8D32 /* SIDELITE13.png */; };
+		6529C29116560AFC004A8D32 /* SIDELITE14.png in Resources */ = {isa = PBXBuildFile; fileRef = 6529C28216560AFB004A8D32 /* SIDELITE14.png */; };
+		6529C29216560AFC004A8D32 /* SIDELITE15.png in Resources */ = {isa = PBXBuildFile; fileRef = 6529C28316560AFC004A8D32 /* SIDELITE15.png */; };
+		653554441640FB6800E6E5C6 /* box.png in Resources */ = {isa = PBXBuildFile; fileRef = 653554431640FB6800E6E5C6 /* box.png */; };
+		6535547E1649818600E6E5C6 /* LAK243bLO.png in Resources */ = {isa = PBXBuildFile; fileRef = 653554711649818600E6E5C6 /* LAK243bLO.png */; };
+		6535547F1649818600E6E5C6 /* LAK243bMO.png in Resources */ = {isa = PBXBuildFile; fileRef = 653554721649818600E6E5C6 /* LAK243bMO.png */; };
+		653554801649818600E6E5C6 /* LAK243bU.png in Resources */ = {isa = PBXBuildFile; fileRef = 653554731649818600E6E5C6 /* LAK243bU.png */; };
+		653554811649818600E6E5C6 /* LAK243bWO.png in Resources */ = {isa = PBXBuildFile; fileRef = 653554741649818600E6E5C6 /* LAK243bWO.png */; };
+		653554821649818600E6E5C6 /* MED243bLO.png in Resources */ = {isa = PBXBuildFile; fileRef = 653554751649818600E6E5C6 /* MED243bLO.png */; };
+		653554831649818600E6E5C6 /* MED243bMO.png in Resources */ = {isa = PBXBuildFile; fileRef = 653554761649818600E6E5C6 /* MED243bMO.png */; };
+		653554841649818600E6E5C6 /* MED248bCY.png in Resources */ = {isa = PBXBuildFile; fileRef = 653554771649818600E6E5C6 /* MED248bCY.png */; };
+		653554851649818600E6E5C6 /* MED400bMO.png in Resources */ = {isa = PBXBuildFile; fileRef = 653554781649818600E6E5C6 /* MED400bMO.png */; };
+		653554861649818600E6E5C6 /* MED430bLO.png in Resources */ = {isa = PBXBuildFile; fileRef = 653554791649818600E6E5C6 /* MED430bLO.png */; };
+		653554871649818600E6E5C6 /* MED430bMO.png in Resources */ = {isa = PBXBuildFile; fileRef = 6535547A1649818600E6E5C6 /* MED430bMO.png */; };
+		653554881649818600E6E5C6 /* MED430bS.png in Resources */ = {isa = PBXBuildFile; fileRef = 6535547B1649818600E6E5C6 /* MED430bS.png */; };
+		653554891649818600E6E5C6 /* MED430bU.png in Resources */ = {isa = PBXBuildFile; fileRef = 6535547C1649818600E6E5C6 /* MED430bU.png */; };
+		6535548A1649818600E6E5C6 /* MED430bWO.png in Resources */ = {isa = PBXBuildFile; fileRef = 6535547D1649818600E6E5C6 /* MED430bWO.png */; };
+		65455D8B16364FF400AEE5E4 /* sample1.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 65455D8916364FF400AEE5E4 /* sample1.jpeg */; };
+		65455D8C16364FF400AEE5E4 /* sample2.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 65455D8A16364FF400AEE5E4 /* sample2.jpeg */; };
+		65455D931637BC6A00AEE5E4 /* bali.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 65455D921637BC6A00AEE5E4 /* bali.jpg */; };
+		655AE66F163910B100762375 /* FRDoorBuilderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 655AE66E163910B100762375 /* FRDoorBuilderViewController.m */; };
+		655AE67316391D8D00762375 /* FRMyFavoriteViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 655AE67216391D8D00762375 /* FRMyFavoriteViewController.m */; };
+		657049C2163A4A0700014492 /* FRDoorConfiguration.m in Sources */ = {isa = PBXBuildFile; fileRef = 657049C1163A4A0700014492 /* FRDoorConfiguration.m */; };
 		659A84931624095D00F1570C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 659A84921624095D00F1570C /* UIKit.framework */; };
 		659A84951624095D00F1570C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 659A84941624095D00F1570C /* Foundation.framework */; };
 		659A84971624095D00F1570C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 659A84961624095D00F1570C /* CoreGraphics.framework */; };
@@ -18,9 +53,63 @@
 		659A84AC1624095D00F1570C /* FRModelController.m in Sources */ = {isa = PBXBuildFile; fileRef = 659A84AB1624095D00F1570C /* FRModelController.m */; };
 		659A84AF1624095D00F1570C /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 659A84AD1624095D00F1570C /* MainStoryboard_iPhone.storyboard */; };
 		659A84B21624095D00F1570C /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 659A84B01624095D00F1570C /* MainStoryboard_iPad.storyboard */; };
+		65DB9E14165B47B400D5765F /* App-Bty-LAK430bMO.png in Resources */ = {isa = PBXBuildFile; fileRef = 65DB9E0E165B47B400D5765F /* App-Bty-LAK430bMO.png */; };
+		65DB9E15165B47B400D5765F /* App-Bty-MED248bCY.png in Resources */ = {isa = PBXBuildFile; fileRef = 65DB9E0F165B47B400D5765F /* App-Bty-MED248bCY.png */; };
+		65DB9E16165B47B400D5765F /* App-Bty-MOR425zCS.png in Resources */ = {isa = PBXBuildFile; fileRef = 65DB9E10165B47B400D5765F /* App-Bty-MOR425zCS.png */; };
+		65DB9E17165B47B400D5765F /* App-Bty-PRS445pCL.png in Resources */ = {isa = PBXBuildFile; fileRef = 65DB9E11165B47B400D5765F /* App-Bty-PRS445pCL.png */; };
+		65DB9E18165B47B400D5765F /* App-Bty-SVD460zLO.png in Resources */ = {isa = PBXBuildFile; fileRef = 65DB9E12165B47B400D5765F /* App-Bty-SVD460zLO.png */; };
+		65DB9E19165B47B400D5765F /* App-Bty-TOR550WWO.png in Resources */ = {isa = PBXBuildFile; fileRef = 65DB9E13165B47B400D5765F /* App-Bty-TOR550WWO.png */; };
+		65DB9E1C165B4AE900D5765F /* LARGE_SITELITE1.png in Resources */ = {isa = PBXBuildFile; fileRef = 65DB9E1B165B4AE900D5765F /* LARGE_SITELITE1.png */; };
+		65DF4765164B7D7B000E13F2 /* TOR550wWO.png in Resources */ = {isa = PBXBuildFile; fileRef = 65DF4764164B7D7B000E13F2 /* TOR550wWO.png */; };
+		65DF4768164B84ED000E13F2 /* Promo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 65DF4767164B84ED000E13F2 /* Promo.jpg */; };
+		65DF476E164B8CDA000E13F2 /* double_door.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 65DF4769164B8CDA000E13F2 /* double_door.jpg */; };
+		65DF476F164B8CDA000E13F2 /* single_door_with_left_sidelite.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 65DF476A164B8CDA000E13F2 /* single_door_with_left_sidelite.jpg */; };
+		65DF4770164B8CDA000E13F2 /* single_door_with_right_sidelite.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 65DF476B164B8CDA000E13F2 /* single_door_with_right_sidelite.jpg */; };
+		65DF4771164B8CDA000E13F2 /* single_door_with_two_sidelites.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 65DF476C164B8CDA000E13F2 /* single_door_with_two_sidelites.jpg */; };
+		65DF4772164B8CDA000E13F2 /* single_door.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 65DF476D164B8CDA000E13F2 /* single_door.jpg */; };
+		65DF4775164B95C1000E13F2 /* FRScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 65DF4774164B95C1000E13F2 /* FRScrollView.m */; };
+		65DF4778164B96F6000E13F2 /* FRImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 65DF4777164B96F6000E13F2 /* FRImageView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6529C27516560AFB004A8D32 /* SIDELITE1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SIDELITE1.png; sourceTree = "<group>"; };
+		6529C27616560AFB004A8D32 /* SIDELITE2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SIDELITE2.png; sourceTree = "<group>"; };
+		6529C27716560AFB004A8D32 /* SIDELITE3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SIDELITE3.png; sourceTree = "<group>"; };
+		6529C27816560AFB004A8D32 /* SIDELITE4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SIDELITE4.png; sourceTree = "<group>"; };
+		6529C27916560AFB004A8D32 /* SIDELITE5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SIDELITE5.png; sourceTree = "<group>"; };
+		6529C27A16560AFB004A8D32 /* SIDELITE6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SIDELITE6.png; sourceTree = "<group>"; };
+		6529C27B16560AFB004A8D32 /* SIDELITE7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SIDELITE7.png; sourceTree = "<group>"; };
+		6529C27C16560AFB004A8D32 /* SIDELITE8.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SIDELITE8.png; sourceTree = "<group>"; };
+		6529C27D16560AFB004A8D32 /* SIDELITE9.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SIDELITE9.png; sourceTree = "<group>"; };
+		6529C27E16560AFB004A8D32 /* SIDELITE10.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SIDELITE10.png; sourceTree = "<group>"; };
+		6529C27F16560AFB004A8D32 /* SIDELITE11.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SIDELITE11.png; sourceTree = "<group>"; };
+		6529C28016560AFB004A8D32 /* SIDELITE12.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SIDELITE12.png; sourceTree = "<group>"; };
+		6529C28116560AFB004A8D32 /* SIDELITE13.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SIDELITE13.png; sourceTree = "<group>"; };
+		6529C28216560AFB004A8D32 /* SIDELITE14.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SIDELITE14.png; sourceTree = "<group>"; };
+		6529C28316560AFC004A8D32 /* SIDELITE15.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SIDELITE15.png; sourceTree = "<group>"; };
+		653554431640FB6800E6E5C6 /* box.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = box.png; sourceTree = "<group>"; };
+		653554711649818600E6E5C6 /* LAK243bLO.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = LAK243bLO.png; sourceTree = "<group>"; };
+		653554721649818600E6E5C6 /* LAK243bMO.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = LAK243bMO.png; sourceTree = "<group>"; };
+		653554731649818600E6E5C6 /* LAK243bU.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = LAK243bU.png; sourceTree = "<group>"; };
+		653554741649818600E6E5C6 /* LAK243bWO.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = LAK243bWO.png; sourceTree = "<group>"; };
+		653554751649818600E6E5C6 /* MED243bLO.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MED243bLO.png; sourceTree = "<group>"; };
+		653554761649818600E6E5C6 /* MED243bMO.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MED243bMO.png; sourceTree = "<group>"; };
+		653554771649818600E6E5C6 /* MED248bCY.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MED248bCY.png; sourceTree = "<group>"; };
+		653554781649818600E6E5C6 /* MED400bMO.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MED400bMO.png; sourceTree = "<group>"; };
+		653554791649818600E6E5C6 /* MED430bLO.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MED430bLO.png; sourceTree = "<group>"; };
+		6535547A1649818600E6E5C6 /* MED430bMO.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MED430bMO.png; sourceTree = "<group>"; };
+		6535547B1649818600E6E5C6 /* MED430bS.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MED430bS.png; sourceTree = "<group>"; };
+		6535547C1649818600E6E5C6 /* MED430bU.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MED430bU.png; sourceTree = "<group>"; };
+		6535547D1649818600E6E5C6 /* MED430bWO.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MED430bWO.png; sourceTree = "<group>"; };
+		65455D8916364FF400AEE5E4 /* sample1.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = sample1.jpeg; sourceTree = "<group>"; };
+		65455D8A16364FF400AEE5E4 /* sample2.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = sample2.jpeg; sourceTree = "<group>"; };
+		65455D921637BC6A00AEE5E4 /* bali.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bali.jpg; sourceTree = "<group>"; };
+		655AE66D163910B100762375 /* FRDoorBuilderViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FRDoorBuilderViewController.h; sourceTree = "<group>"; };
+		655AE66E163910B100762375 /* FRDoorBuilderViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FRDoorBuilderViewController.m; sourceTree = "<group>"; };
+		655AE67116391D8D00762375 /* FRMyFavoriteViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FRMyFavoriteViewController.h; sourceTree = "<group>"; };
+		655AE67216391D8D00762375 /* FRMyFavoriteViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FRMyFavoriteViewController.m; sourceTree = "<group>"; };
+		657049C0163A4A0700014492 /* FRDoorConfiguration.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FRDoorConfiguration.h; sourceTree = "<group>"; };
+		657049C1163A4A0700014492 /* FRDoorConfiguration.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FRDoorConfiguration.m; sourceTree = "<group>"; };
 		659A848E1624095D00F1570C /* IPadDoorBuilder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IPadDoorBuilder.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		659A84921624095D00F1570C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		659A84941624095D00F1570C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -39,6 +128,24 @@
 		659A84AB1624095D00F1570C /* FRModelController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FRModelController.m; sourceTree = "<group>"; };
 		659A84AE1624095D00F1570C /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
 		659A84B11624095D00F1570C /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
+		65DB9E0E165B47B400D5765F /* App-Bty-LAK430bMO.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "App-Bty-LAK430bMO.png"; sourceTree = "<group>"; };
+		65DB9E0F165B47B400D5765F /* App-Bty-MED248bCY.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "App-Bty-MED248bCY.png"; sourceTree = "<group>"; };
+		65DB9E10165B47B400D5765F /* App-Bty-MOR425zCS.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "App-Bty-MOR425zCS.png"; sourceTree = "<group>"; };
+		65DB9E11165B47B400D5765F /* App-Bty-PRS445pCL.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "App-Bty-PRS445pCL.png"; sourceTree = "<group>"; };
+		65DB9E12165B47B400D5765F /* App-Bty-SVD460zLO.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "App-Bty-SVD460zLO.png"; sourceTree = "<group>"; };
+		65DB9E13165B47B400D5765F /* App-Bty-TOR550WWO.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "App-Bty-TOR550WWO.png"; sourceTree = "<group>"; };
+		65DB9E1B165B4AE900D5765F /* LARGE_SITELITE1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = LARGE_SITELITE1.png; sourceTree = "<group>"; };
+		65DF4764164B7D7B000E13F2 /* TOR550wWO.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TOR550wWO.png; sourceTree = "<group>"; };
+		65DF4767164B84ED000E13F2 /* Promo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Promo.jpg; sourceTree = "<group>"; };
+		65DF4769164B8CDA000E13F2 /* double_door.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = double_door.jpg; sourceTree = "<group>"; };
+		65DF476A164B8CDA000E13F2 /* single_door_with_left_sidelite.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = single_door_with_left_sidelite.jpg; sourceTree = "<group>"; };
+		65DF476B164B8CDA000E13F2 /* single_door_with_right_sidelite.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = single_door_with_right_sidelite.jpg; sourceTree = "<group>"; };
+		65DF476C164B8CDA000E13F2 /* single_door_with_two_sidelites.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = single_door_with_two_sidelites.jpg; sourceTree = "<group>"; };
+		65DF476D164B8CDA000E13F2 /* single_door.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = single_door.jpg; sourceTree = "<group>"; };
+		65DF4773164B95C1000E13F2 /* FRScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FRScrollView.h; sourceTree = "<group>"; };
+		65DF4774164B95C1000E13F2 /* FRScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FRScrollView.m; sourceTree = "<group>"; };
+		65DF4776164B96F6000E13F2 /* FRImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FRImageView.h; sourceTree = "<group>"; };
+		65DF4777164B96F6000E13F2 /* FRImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FRImageView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +165,52 @@
 		659A84831624095C00F1570C = {
 			isa = PBXGroup;
 			children = (
+				65DB9E1B165B4AE900D5765F /* LARGE_SITELITE1.png */,
+				65DB9E0E165B47B400D5765F /* App-Bty-LAK430bMO.png */,
+				65DB9E0F165B47B400D5765F /* App-Bty-MED248bCY.png */,
+				65DB9E10165B47B400D5765F /* App-Bty-MOR425zCS.png */,
+				65DB9E11165B47B400D5765F /* App-Bty-PRS445pCL.png */,
+				65DB9E12165B47B400D5765F /* App-Bty-SVD460zLO.png */,
+				65DB9E13165B47B400D5765F /* App-Bty-TOR550WWO.png */,
+				6529C27516560AFB004A8D32 /* SIDELITE1.png */,
+				6529C27616560AFB004A8D32 /* SIDELITE2.png */,
+				6529C27716560AFB004A8D32 /* SIDELITE3.png */,
+				6529C27816560AFB004A8D32 /* SIDELITE4.png */,
+				6529C27916560AFB004A8D32 /* SIDELITE5.png */,
+				6529C27A16560AFB004A8D32 /* SIDELITE6.png */,
+				6529C27B16560AFB004A8D32 /* SIDELITE7.png */,
+				6529C27C16560AFB004A8D32 /* SIDELITE8.png */,
+				6529C27D16560AFB004A8D32 /* SIDELITE9.png */,
+				6529C27E16560AFB004A8D32 /* SIDELITE10.png */,
+				6529C27F16560AFB004A8D32 /* SIDELITE11.png */,
+				6529C28016560AFB004A8D32 /* SIDELITE12.png */,
+				6529C28116560AFB004A8D32 /* SIDELITE13.png */,
+				6529C28216560AFB004A8D32 /* SIDELITE14.png */,
+				6529C28316560AFC004A8D32 /* SIDELITE15.png */,
+				65455D8916364FF400AEE5E4 /* sample1.jpeg */,
+				65455D8A16364FF400AEE5E4 /* sample2.jpeg */,
+				65455D921637BC6A00AEE5E4 /* bali.jpg */,
+				653554431640FB6800E6E5C6 /* box.png */,
+				653554711649818600E6E5C6 /* LAK243bLO.png */,
+				653554721649818600E6E5C6 /* LAK243bMO.png */,
+				653554731649818600E6E5C6 /* LAK243bU.png */,
+				653554741649818600E6E5C6 /* LAK243bWO.png */,
+				653554751649818600E6E5C6 /* MED243bLO.png */,
+				653554761649818600E6E5C6 /* MED243bMO.png */,
+				653554771649818600E6E5C6 /* MED248bCY.png */,
+				653554781649818600E6E5C6 /* MED400bMO.png */,
+				653554791649818600E6E5C6 /* MED430bLO.png */,
+				6535547A1649818600E6E5C6 /* MED430bMO.png */,
+				6535547B1649818600E6E5C6 /* MED430bS.png */,
+				6535547C1649818600E6E5C6 /* MED430bU.png */,
+				6535547D1649818600E6E5C6 /* MED430bWO.png */,
+				65DF4764164B7D7B000E13F2 /* TOR550wWO.png */,
+				65DF4767164B84ED000E13F2 /* Promo.jpg */,
+				65DF4769164B8CDA000E13F2 /* double_door.jpg */,
+				65DF476A164B8CDA000E13F2 /* single_door_with_left_sidelite.jpg */,
+				65DF476B164B8CDA000E13F2 /* single_door_with_right_sidelite.jpg */,
+				65DF476C164B8CDA000E13F2 /* single_door_with_two_sidelites.jpg */,
+				65DF476D164B8CDA000E13F2 /* single_door.jpg */,
 				659A84981624095D00F1570C /* IPadDoorBuilder */,
 				659A84911624095D00F1570C /* Frameworks */,
 				659A848F1624095D00F1570C /* Products */,
@@ -93,6 +246,17 @@
 				659A84A81624095D00F1570C /* FRDataViewController.m */,
 				659A84AA1624095D00F1570C /* FRModelController.h */,
 				659A84AB1624095D00F1570C /* FRModelController.m */,
+				659A84A01624095D00F1570C /* IPadDoorBuilder-Prefix.pch */,
+				655AE66D163910B100762375 /* FRDoorBuilderViewController.h */,
+				655AE66E163910B100762375 /* FRDoorBuilderViewController.m */,
+				655AE67116391D8D00762375 /* FRMyFavoriteViewController.h */,
+				655AE67216391D8D00762375 /* FRMyFavoriteViewController.m */,
+				657049C0163A4A0700014492 /* FRDoorConfiguration.h */,
+				657049C1163A4A0700014492 /* FRDoorConfiguration.m */,
+				65DF4773164B95C1000E13F2 /* FRScrollView.h */,
+				65DF4774164B95C1000E13F2 /* FRScrollView.m */,
+				65DF4776164B96F6000E13F2 /* FRImageView.h */,
+				65DF4777164B96F6000E13F2 /* FRImageView.m */,
 				659A84AD1624095D00F1570C /* MainStoryboard_iPhone.storyboard */,
 				659A84B01624095D00F1570C /* MainStoryboard_iPad.storyboard */,
 				659A84991624095D00F1570C /* Supporting Files */,
@@ -106,7 +270,6 @@
 				659A849A1624095D00F1570C /* IPadDoorBuilder-Info.plist */,
 				659A849B1624095D00F1570C /* InfoPlist.strings */,
 				659A849E1624095D00F1570C /* main.m */,
-				659A84A01624095D00F1570C /* IPadDoorBuilder-Prefix.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -166,6 +329,52 @@
 				659A849D1624095D00F1570C /* InfoPlist.strings in Resources */,
 				659A84AF1624095D00F1570C /* MainStoryboard_iPhone.storyboard in Resources */,
 				659A84B21624095D00F1570C /* MainStoryboard_iPad.storyboard in Resources */,
+				65455D8B16364FF400AEE5E4 /* sample1.jpeg in Resources */,
+				65455D8C16364FF400AEE5E4 /* sample2.jpeg in Resources */,
+				65455D931637BC6A00AEE5E4 /* bali.jpg in Resources */,
+				653554441640FB6800E6E5C6 /* box.png in Resources */,
+				6535547E1649818600E6E5C6 /* LAK243bLO.png in Resources */,
+				6535547F1649818600E6E5C6 /* LAK243bMO.png in Resources */,
+				653554801649818600E6E5C6 /* LAK243bU.png in Resources */,
+				653554811649818600E6E5C6 /* LAK243bWO.png in Resources */,
+				653554821649818600E6E5C6 /* MED243bLO.png in Resources */,
+				653554831649818600E6E5C6 /* MED243bMO.png in Resources */,
+				653554841649818600E6E5C6 /* MED248bCY.png in Resources */,
+				653554851649818600E6E5C6 /* MED400bMO.png in Resources */,
+				653554861649818600E6E5C6 /* MED430bLO.png in Resources */,
+				653554871649818600E6E5C6 /* MED430bMO.png in Resources */,
+				653554881649818600E6E5C6 /* MED430bS.png in Resources */,
+				653554891649818600E6E5C6 /* MED430bU.png in Resources */,
+				6535548A1649818600E6E5C6 /* MED430bWO.png in Resources */,
+				65DF4765164B7D7B000E13F2 /* TOR550wWO.png in Resources */,
+				65DF4768164B84ED000E13F2 /* Promo.jpg in Resources */,
+				65DF476E164B8CDA000E13F2 /* double_door.jpg in Resources */,
+				65DF476F164B8CDA000E13F2 /* single_door_with_left_sidelite.jpg in Resources */,
+				65DF4770164B8CDA000E13F2 /* single_door_with_right_sidelite.jpg in Resources */,
+				65DF4771164B8CDA000E13F2 /* single_door_with_two_sidelites.jpg in Resources */,
+				65DF4772164B8CDA000E13F2 /* single_door.jpg in Resources */,
+				6529C28416560AFC004A8D32 /* SIDELITE1.png in Resources */,
+				6529C28516560AFC004A8D32 /* SIDELITE2.png in Resources */,
+				6529C28616560AFC004A8D32 /* SIDELITE3.png in Resources */,
+				6529C28716560AFC004A8D32 /* SIDELITE4.png in Resources */,
+				6529C28816560AFC004A8D32 /* SIDELITE5.png in Resources */,
+				6529C28916560AFC004A8D32 /* SIDELITE6.png in Resources */,
+				6529C28A16560AFC004A8D32 /* SIDELITE7.png in Resources */,
+				6529C28B16560AFC004A8D32 /* SIDELITE8.png in Resources */,
+				6529C28C16560AFC004A8D32 /* SIDELITE9.png in Resources */,
+				6529C28D16560AFC004A8D32 /* SIDELITE10.png in Resources */,
+				6529C28E16560AFC004A8D32 /* SIDELITE11.png in Resources */,
+				6529C28F16560AFC004A8D32 /* SIDELITE12.png in Resources */,
+				6529C29016560AFC004A8D32 /* SIDELITE13.png in Resources */,
+				6529C29116560AFC004A8D32 /* SIDELITE14.png in Resources */,
+				6529C29216560AFC004A8D32 /* SIDELITE15.png in Resources */,
+				65DB9E14165B47B400D5765F /* App-Bty-LAK430bMO.png in Resources */,
+				65DB9E15165B47B400D5765F /* App-Bty-MED248bCY.png in Resources */,
+				65DB9E16165B47B400D5765F /* App-Bty-MOR425zCS.png in Resources */,
+				65DB9E17165B47B400D5765F /* App-Bty-PRS445pCL.png in Resources */,
+				65DB9E18165B47B400D5765F /* App-Bty-SVD460zLO.png in Resources */,
+				65DB9E19165B47B400D5765F /* App-Bty-TOR550WWO.png in Resources */,
+				65DB9E1C165B4AE900D5765F /* LARGE_SITELITE1.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -181,6 +390,11 @@
 				659A84A61624095D00F1570C /* FRRootViewController.m in Sources */,
 				659A84A91624095D00F1570C /* FRDataViewController.m in Sources */,
 				659A84AC1624095D00F1570C /* FRModelController.m in Sources */,
+				655AE66F163910B100762375 /* FRDoorBuilderViewController.m in Sources */,
+				655AE67316391D8D00762375 /* FRMyFavoriteViewController.m in Sources */,
+				657049C2163A4A0700014492 /* FRDoorConfiguration.m in Sources */,
+				65DF4775164B95C1000E13F2 /* FRScrollView.m in Sources */,
+				65DF4778164B96F6000E13F2 /* FRImageView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,6 +486,7 @@
 				GCC_PREFIX_HEADER = "IPadDoorBuilder/IPadDoorBuilder-Prefix.pch";
 				INFOPLIST_FILE = "IPadDoorBuilder/IPadDoorBuilder-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 2;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -283,6 +498,7 @@
 				GCC_PREFIX_HEADER = "IPadDoorBuilder/IPadDoorBuilder-Prefix.pch";
 				INFOPLIST_FILE = "IPadDoorBuilder/IPadDoorBuilder-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 2;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -306,6 +522,7 @@
 				659A84B71624095D00F1570C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

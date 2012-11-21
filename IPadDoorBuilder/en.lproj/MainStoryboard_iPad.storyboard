@@ -1,70 +1,301 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="1.0" toolsVersion="1906" systemVersion="11A511" targetRuntime="iOS.CocoaTouch.iPad" nextObjectID="17" propertyAccessControl="none" initialViewController="2">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="2.0" toolsVersion="2549" systemVersion="11G56" targetRuntime="iOS.CocoaTouch.iPad" propertyAccessControl="none" initialViewController="2">
     <dependencies>
-        <development defaultVersion="4200" identifier="xcode"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="902"/>
+        <deployment defaultVersion="1296" identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="1498"/>
     </dependencies>
     <scenes>
+        <!--Root View Controller-->
         <scene sceneID="4">
             <objects>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="3" sceneMemberID="firstResponder"/>
-                <viewController id="2" customClass="FRRootViewController" sceneMemberID="viewController">
+                <viewController modalTransitionStyle="crossDissolve" id="2" customClass="FRRootViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="16">
-                        <rect key="frame" x="0.0" y="20" width="768" height="1004"/>
+                        <rect key="frame" x="0.0" y="20" width="1024" height="748"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews/>
-                        <color key="backgroundColor" red="0.60000002379999995" green="0.40000000600000002" blue="0.20000000300000001" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <simulatedStatusBarMetrics key="simulatedStatusBarMetrics" statusBarStyle="blackTranslucent"/>
+                        <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
                     </view>
+                    <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics"/>
                 </viewController>
             </objects>
-            <point key="canvasLocation" x="13" y="-243"/>
+            <point key="canvasLocation" x="1" y="-643"/>
         </scene>
+        <!--Data View Controller-->
         <scene sceneID="7">
             <objects>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="6" sceneMemberID="firstResponder"/>
                 <viewController storyboardIdentifier="FRDataViewController" id="5" customClass="FRDataViewController" sceneMemberID="viewController">
                     <view key="view" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="12">
-                        <rect key="frame" x="0.0" y="20" width="768" height="1004"/>
-                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <rect key="frame" x="0.0" y="20" width="1024" height="748"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Label" textAlignment="center" lineBreakMode="tailTruncation" minimumFontSize="10" id="14">
-                                <rect key="frame" x="15" y="20" width="738" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="Helvetica" family="Helvetica" pointSize="14"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <view contentMode="scaleToFill" id="13">
-                                <rect key="frame" x="20" y="49" width="728" height="935"/>
-                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                                <subviews/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                            <imageView userInteractionEnabled="NO" contentMode="center" id="v1a-pZ-1Np">
+                                <rect key="frame" x="15" y="59" width="989" height="680"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="top" barStyle="blackTranslucent" id="CDy-2I-Zyt">
+                                <rect key="frame" x="0.0" y="0.0" width="1024" height="44"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                <items>
+                                    <barButtonItem title="Save" id="wao-kj-pa1">
+                                        <connections>
+                                            <action selector="saveToMyFavorite:" destination="5" id="ptQ-Vc-MvI"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem width="10" style="plain" systemItem="fixedSpace" id="RaI-3P-vfq"/>
+                                    <barButtonItem title="Edit" id="JN4-UA-rwm"/>
+                                    <barButtonItem width="10" style="plain" systemItem="fixedSpace" id="dH6-aP-55y"/>
+                                    <barButtonItem title="Info" id="lid-CA-Tvj"/>
+                                    <barButtonItem width="80" style="plain" systemItem="fixedSpace" id="TFN-D5-pbv"/>
+                                    <barButtonItem title="Most Popular Doors" width="169" id="UYf-0v-YMs"/>
+                                    <barButtonItem width="80" style="plain" systemItem="fixedSpace" id="klx-an-HyY"/>
+                                    <barButtonItem title="Build Your Doors from Scratch" id="bCG-D9-kZZ">
+                                        <connections>
+                                            <segue destination="ffh-Ci-a4b" kind="modal" id="7tK-XT-jIk"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem width="80" style="plain" systemItem="fixedSpace" id="yUy-Xh-My5"/>
+                                    <barButtonItem title="My Favorites" id="lAg-uC-eIX">
+                                        <connections>
+                                            <segue destination="9RS-DE-7k1" kind="modal" id="Wvz-Iu-fRx"/>
+                                        </connections>
+                                    </barButtonItem>
+                                </items>
+                            </toolbar>
+                            <view hidden="YES" contentMode="scaleToFill" id="Dgs-Cc-z2K">
+                                <rect key="frame" x="233" y="197" width="512" height="374"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" id="7FC-eu-Wcw">
+                                        <rect key="frame" x="182" y="263" width="149" height="37"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                        <state key="normal" title="Save to Favorites">
+                                            <color key="titleColor" red="0.1960784314" green="0.30980392159999998" blue="0.52156862749999999" alpha="1" colorSpace="calibratedRGB"/>
+                                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                        <state key="highlighted">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="saveToMyFavorite2:" destination="5" eventType="touchUpInside" id="Bgl-Tp-zHh"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" id="TuE-a4-btU">
+                                        <rect key="frame" x="182" y="324" width="149" height="37"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                        <state key="normal" title="Customize This">
+                                            <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                        <state key="highlighted">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                    </button>
+                                    <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" barStyle="blackTranslucent" id="iwb-lL-JVM">
+                                        <rect key="frame" x="452" y="0.0" width="60" height="44"/>
+                                        <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                                        <items>
+                                            <barButtonItem title="Item" id="xOo-FX-vm2"/>
+                                        </items>
+                                    </toolbar>
+                                </subviews>
+                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                             </view>
                         </subviews>
-                        <color key="backgroundColor" red="0.97826086960000003" green="0.91848131079999995" blue="0.73914263440000005" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="backgroundColor" red="0.2395368303571429" green="0.2395368303571429" blue="0.2395368303571429" alpha="0.5" colorSpace="calibratedRGB"/>
                         <simulatedStatusBarMetrics key="simulatedStatusBarMetrics" statusBarStyle="blackTranslucent"/>
+                        <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
                     </view>
+                    <navigationItem key="navigationItem" id="X29-ep-z5W"/>
+                    <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics"/>
                     <connections>
-                        <outlet property="dataLabel" destination="14" id="15"/>
+                        <outlet property="dataImageView" destination="v1a-pZ-1Np" id="b9B-ac-3gc"/>
+                        <outlet property="doorDetailView" destination="Dgs-Cc-z2K" id="Jjm-Ja-1Oh"/>
+                        <outlet property="topMenuBar" destination="CDy-2I-Zyt" id="waq-T9-yDT"/>
                     </connections>
                 </viewController>
             </objects>
-            <point key="canvasLocation" x="896" y="-243"/>
+            <point key="canvasLocation" x="1291" y="-627"/>
+        </scene>
+        <!--Door Builder View Controller-->
+        <scene sceneID="olv-ZB-0rv">
+            <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="CDK-kq-E97" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <viewController modalTransitionStyle="crossDissolve" id="ffh-Ci-a4b" customClass="FRDoorBuilderViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="P6o-O5-MTV">
+                        <rect key="frame" x="0.0" y="20" width="1024" height="748"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="top" barStyle="blackTranslucent" id="8zb-UO-xym">
+                                <rect key="frame" x="0.0" y="0.0" width="1024" height="44"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                <items>
+                                    <barButtonItem title="Save" id="LPR-Bx-8S4"/>
+                                    <barButtonItem width="10" style="plain" systemItem="fixedSpace" id="Bv3-55-88R"/>
+                                    <barButtonItem title="Edit" id="bs7-no-Utg"/>
+                                    <barButtonItem width="10" style="plain" systemItem="fixedSpace" id="Edy-wG-Eg8"/>
+                                    <barButtonItem title="Info" id="rT0-A3-n4I"/>
+                                    <barButtonItem width="80" style="plain" systemItem="fixedSpace" id="CXr-OZ-O91"/>
+                                    <barButtonItem title="Most Popular Doors" width="169" id="gbb-PT-qDi">
+                                        <connections>
+                                            <segue destination="2" kind="modal" id="qvd-vi-JFB"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem width="80" style="plain" systemItem="fixedSpace" id="4pS-vF-qYD"/>
+                                    <barButtonItem title="Build Your Doors from Scratch" id="fY7-9V-8xe"/>
+                                    <barButtonItem width="80" style="plain" systemItem="fixedSpace" id="OAI-iA-L04"/>
+                                    <barButtonItem title="My Favorites" id="Mx0-Fj-oU2">
+                                        <connections>
+                                            <segue destination="9RS-DE-7k1" kind="modal" id="i2z-Rm-EqQ"/>
+                                        </connections>
+                                    </barButtonItem>
+                                </items>
+                            </toolbar>
+                            <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" barStyle="blackTranslucent" id="ka5-GB-yaY">
+                                <rect key="frame" x="0.0" y="704" width="1024" height="44"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                                <items/>
+                            </toolbar>
+                            <scrollView hidden="YES" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" pagingEnabled="YES" indicatorStyle="black" id="60O-3j-KFr" customClass="FRScrollView">
+                                <rect key="frame" x="34" y="254" width="938" height="287"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                                <subviews>
+                                    <imageView hidden="YES" multipleTouchEnabled="YES" tag="100" contentMode="scaleToFill" id="pWI-bC-tjB">
+                                        <rect key="frame" x="128" y="-197" width="350" height="620"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                    </imageView>
+                                </subviews>
+                                <color key="backgroundColor" cocoaTouchSystemColor="scrollViewTexturedBackgroundColor"/>
+                                <gestureRecognizers/>
+                                <connections>
+                                    <outlet property="delegate" destination="ffh-Ci-a4b" id="hwJ-JY-74G"/>
+                                </connections>
+                            </scrollView>
+                            <imageView hidden="YES" multipleTouchEnabled="YES" tag="101" contentMode="scaleAspectFill" id="7I8-3e-hAv">
+                                <rect key="frame" x="371" y="57" width="300" height="620"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                            </imageView>
+                            <imageView hidden="YES" multipleTouchEnabled="YES" tag="102" contentMode="scaleToFill" id="Tje-Sw-QEu">
+                                <rect key="frame" x="520" y="57" width="350" height="620"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                            </imageView>
+                            <imageView hidden="YES" multipleTouchEnabled="YES" tag="103" contentMode="scaleAspectFill" id="GI7-YH-Zhd">
+                                <rect key="frame" x="679" y="57" width="95" height="620"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                            </imageView>
+                            <imageView hidden="YES" multipleTouchEnabled="YES" tag="99" contentMode="scaleAspectFill" id="pIK-L0-f0a">
+                                <rect key="frame" x="268" y="57" width="95" height="620"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="D0F-Nt-LWy"/>
+                    <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
+                    <connections>
+                        <outlet property="imageViewLeftSideLite" destination="pIK-L0-f0a" id="vfV-TZ-23R"/>
+                        <outlet property="imageViewLeftSingleDoor" destination="pWI-bC-tjB" id="VAk-np-Js7"/>
+                        <outlet property="imageViewMidSingleDoor" destination="7I8-3e-hAv" id="Mz0-tz-fel"/>
+                        <outlet property="imageViewRightSideLite" destination="GI7-YH-Zhd" id="Cnd-ba-HU6"/>
+                        <outlet property="imageViewRightSingleDoor" destination="Tje-Sw-QEu" id="2x2-yR-SAn"/>
+                        <outlet property="selectionScrollView" destination="60O-3j-KFr" id="iXo-ec-6TZ"/>
+                    </connections>
+                </viewController>
+            </objects>
+            <point key="canvasLocation" x="1268" y="-1914"/>
+        </scene>
+        <!--My Favorite View Controller-->
+        <scene sceneID="obA-zy-0LU">
+            <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="cig-ZZ-2cV" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <viewController modalTransitionStyle="crossDissolve" id="9RS-DE-7k1" customClass="FRMyFavoriteViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="CrL-92-JGg">
+                        <rect key="frame" x="0.0" y="20" width="1024" height="748"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="top" barStyle="blackTranslucent" id="bhG-yH-hag">
+                                <rect key="frame" x="0.0" y="0.0" width="1024" height="44"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                <items>
+                                    <barButtonItem title="Save" id="ngY-IR-98e">
+                                        <connections>
+                                            <action selector="saveToMyFavorite:" destination="5" id="HPW-1E-KhS"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem width="10" style="plain" systemItem="fixedSpace" id="Qos-Be-OGm"/>
+                                    <barButtonItem title="Edit" id="hDz-uB-KWQ"/>
+                                    <barButtonItem width="10" style="plain" systemItem="fixedSpace" id="6x5-sT-q8i"/>
+                                    <barButtonItem title="Info" id="ayu-eb-3XU"/>
+                                    <barButtonItem width="80" style="plain" systemItem="fixedSpace" id="VXg-8b-P74"/>
+                                    <barButtonItem title="Most Popular Doors" width="169" id="Vg8-9L-YVU">
+                                        <connections>
+                                            <segue destination="2" kind="modal" id="bPm-Zt-E7z"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem width="80" style="plain" systemItem="fixedSpace" id="P8K-8M-Yq1"/>
+                                    <barButtonItem title="Build Your Doors from Scratch" id="MPC-1V-aqW">
+                                        <connections>
+                                            <segue destination="ffh-Ci-a4b" kind="modal" id="eQM-6r-dFj"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem width="80" style="plain" systemItem="fixedSpace" id="Ory-bw-Wtv"/>
+                                    <barButtonItem title="My Favorites" id="RQA-6O-wbw"/>
+                                </items>
+                            </toolbar>
+                        </subviews>
+                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                        <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="CyJ-AK-kVN"/>
+                    <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
+                </viewController>
+            </objects>
+            <point key="canvasLocation" x="1291" y="662"/>
         </scene>
     </scenes>
     <classes>
         <class className="FRDataViewController" superclassName="UIViewController">
             <source key="sourceIdentifier" type="project" relativePath="./Classes/FRDataViewController.h"/>
             <relationships>
+                <relationship kind="action" name="saveToMyFavorite2:"/>
+                <relationship kind="action" name="saveToMyFavorite:"/>
+                <relationship kind="outlet" name="dataImageView" candidateClass="UIImageView"/>
                 <relationship kind="outlet" name="dataLabel" candidateClass="UILabel"/>
+                <relationship kind="outlet" name="doorDetailView" candidateClass="UIView"/>
+                <relationship kind="outlet" name="topMenuBar" candidateClass="UIToolbar"/>
             </relationships>
+        </class>
+        <class className="FRDoorBuilderViewController" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/FRDoorBuilderViewController.h"/>
+            <relationships>
+                <relationship kind="outlet" name="imageViewLeftSideLite" candidateClass="UIImageView"/>
+                <relationship kind="outlet" name="imageViewLeftSingleDoor" candidateClass="UIImageView"/>
+                <relationship kind="outlet" name="imageViewMidSingleDoor" candidateClass="UIImageView"/>
+                <relationship kind="outlet" name="imageViewRightSideLite" candidateClass="UIImageView"/>
+                <relationship kind="outlet" name="imageViewRightSingleDoor" candidateClass="UIImageView"/>
+                <relationship kind="outlet" name="selectionScrollView" candidateClass="FRScrollView"/>
+            </relationships>
+        </class>
+        <class className="FRMyFavoriteViewController" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/FRMyFavoriteViewController.h"/>
         </class>
         <class className="FRRootViewController" superclassName="UIViewController">
             <source key="sourceIdentifier" type="project" relativePath="./Classes/FRRootViewController.h"/>
-            <relationships>
-                <relationship kind="outlet" name="pageViewController" candidateClass="UIPageViewController"/>
-            </relationships>
+        </class>
+        <class className="FRScrollView" superclassName="UIScrollView">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/FRScrollView.h"/>
         </class>
     </classes>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
@@ -72,4 +303,9 @@
         <simulatedOrientationMetrics key="orientation"/>
         <simulatedScreenMetrics key="destination"/>
     </simulatedMetricsContainer>
+    <inferredMetricsTieBreakers>
+        <segue reference="7tK-XT-jIk"/>
+        <segue reference="qvd-vi-JFB"/>
+        <segue reference="i2z-Rm-EqQ"/>
+    </inferredMetricsTieBreakers>
 </document>

@@ -37,17 +37,36 @@
     [self addChildViewController:self.pageViewController];
     [self.view addSubview:self.pageViewController.view];
 
+    // Don't need this any more. Make this view take up the entire screen.
     // Set the page view controller's bounds using an inset rect so that self's view is visible around the edges of the pages.
+    /*
     CGRect pageViewRect = self.view.bounds;
     if ([[UIDevice currentDevice] userInterfaceIdiom] == UIUserInterfaceIdiomPad) {
-        pageViewRect = CGRectInset(pageViewRect, 40.0, 40.0);
+        pageViewRect = CGRectInset(pageViewRect, 10.0, 10.0);
     }
     self.pageViewController.view.frame = pageViewRect;
-
+    */
+     
+    self.pageViewController.view.frame = self.view.bounds;
+    
     [self.pageViewController didMoveToParentViewController:self];
 
     // Add the page view controller's gesture recognizers to the book view controller's view so that the gestures are started more easily.
     self.view.gestureRecognizers = self.pageViewController.gestureRecognizers;
+    
+    // Find the tap gesture recognizer so we can remove it!
+    UIGestureRecognizer* tapRecognizer = nil;
+    for (UIGestureRecognizer* recognizer in self.pageViewController.gestureRecognizers) {
+        if ( [recognizer isKindOfClass:[UITapGestureRecognizer class]] ) {
+            tapRecognizer = recognizer;
+            break;
+        }
+    }
+    
+    if ( tapRecognizer ) {
+        [self.view removeGestureRecognizer:tapRecognizer];
+        [self.pageViewController.view removeGestureRecognizer:tapRecognizer];
+    }
 }
 
 - (void)viewDidUnload
@@ -86,7 +105,7 @@
 
 - (UIPageViewControllerSpineLocation)pageViewController:(UIPageViewController *)pageViewController spineLocationForInterfaceOrientation:(UIInterfaceOrientation)orientation
 {
-    if (UIInterfaceOrientationIsPortrait(orientation) || ([[UIDevice currentDevice] userInterfaceIdiom] == UIUserInterfaceIdiomPhone)) {
+    //if (UIInterfaceOrientationIsPortrait(orientation) || ([[UIDevice currentDevice] userInterfaceIdiom] == UIUserInterfaceIdiomPhone)) {
         // In portrait orientation or on iPhone: Set the spine position to "min" and the page view controller's view controllers array to contain just one view controller. Setting the spine position to 'UIPageViewControllerSpineLocationMid' in landscape orientation sets the doubleSided property to YES, so set it to NO here.
         
         UIViewController *currentViewController = [self.pageViewController.viewControllers objectAtIndex:0];
@@ -95,9 +114,10 @@
         
         self.pageViewController.doubleSided = NO;
         return UIPageViewControllerSpineLocationMin;
-    }
+    //}
 
     // In landscape orientation: Set set the spine location to "mid" and the page view controller's view controllers array to contain two view controllers. If the current page is even, set it to contain the current and next view controllers; if it is odd, set the array to contain the previous and current view controllers.
+    /*
     FRDataViewController *currentViewController = [self.pageViewController.viewControllers objectAtIndex:0];
     NSArray *viewControllers = nil;
 
@@ -113,6 +133,7 @@
 
 
     return UIPageViewControllerSpineLocationMid;
+    */
 }
 
 @end
