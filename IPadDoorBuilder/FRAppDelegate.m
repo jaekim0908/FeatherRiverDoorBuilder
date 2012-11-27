@@ -7,12 +7,80 @@
 //
 // MHO ADDITIONAL COMMENT
 #import "FRAppDelegate.h"
+#import "AllSlabComponents.h"
+#import "DoorConfigDatabase.h"
+#import "DoorConfig.h"
+
+
 
 @implementation FRAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     // Override point for customization after application launch.
+    //NSLog(@"MH: inside the delegate.");
+    /*******
+    AllSlabComponents *slabComponentsSingleton = [AllSlabComponents sharedInstance];
+    
+    //TEST - CONFIRM THE ARRAY IS POPULATED
+    for(NSDictionary *slabComponentEntry in [slabComponentsSingleton componentsArray]){
+   
+        NSLog(@"Description:%@",[slabComponentEntry valueForKey:@"Description"]);
+        NSLog(@"Id:%@",[slabComponentEntry valueForKey:@"Id"]);
+        NSLog(@"All:%@",[slabComponentEntry allValues]);
+        
+        
+        for ( NSString *key in slabComponentEntry) {
+            NSLog(@"Key:%@, Value for Key:%@",key,[slabComponentEntry valueForKey:key]);
+        }
+    }
+     *******/
+
+    int slab=1;
+    int color=0;
+    int glass=0;
+    int sidelite=6;
+    int config=1;
+    int jamb=0;
+    
+    DoorConfig *currentChoices = [[DoorConfig alloc] init:slab color:color glass:glass sidelite:sidelite config:config jamb:jamb];
+    
+    NSDictionary *validAndInvalidComponents = [[DoorConfigDatabase database] doorConfigInfos:currentChoices requestedType:@"glass"];
+    
+    NSArray *validComponents = [validAndInvalidComponents objectForKey:@"ValidComponents"];
+    
+    for (NSDictionary *validComponentEntry in validComponents){
+        NSLog(@"VALID COMPONENTS:%@",[validComponentEntry valueForKey:@"Description"]);
+    }
+    
+    NSArray *invalidComponents = [validAndInvalidComponents objectForKey:@"InvalidComponents"];
+    
+    for (NSDictionary *invalidComponentEntry in invalidComponents){
+        NSLog(@"INVALID COMPONENTS:%@",[invalidComponentEntry valueForKey:@"Description"]);
+    }
+    
+ /********
+    for(DoorConfig *validComponents in [allComponents objectAtIndex:0]){
+        NSLog(@"VALID: %d,%d,%d,%d,%d,%d",
+              validComponents.slab,
+              validComponents.color,
+              validComponents.glass,
+              validComponents.sidelites,
+              validComponents.config,
+              validComponents.jamb);
+    }
+    
+    for(DoorConfig *invalidComponents in [allComponents objectAtIndex:1]){
+        NSLog(@"INVALID %d,%d,%d,%d,%d,%d",
+              invalidComponents.slab,
+              invalidComponents.color,
+              invalidComponents.glass,
+              invalidComponents.sidelites,
+              invalidComponents.config,
+              invalidComponents.jamb);
+    }
+    *******/
+
     return YES;
 }
 
