@@ -71,7 +71,7 @@
 		65DF4778164B96F6000E13F2 /* FRImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 65DF4777164B96F6000E13F2 /* FRImageView.m */; };
 		D4FBE9DE16607F710033B4B4 /* slabComponents.plist in Resources */ = {isa = PBXBuildFile; fileRef = D4FBE9DD16607F710033B4B4 /* slabComponents.plist */; };
 		D4FBE9E2166084D80033B4B4 /* DoorComponent.m in Sources */ = {isa = PBXBuildFile; fileRef = D4FBE9E1166084D80033B4B4 /* DoorComponent.m */; };
-		D4FBE9E5166085230033B4B4 /* AllSlabComponents.m in Sources */ = {isa = PBXBuildFile; fileRef = D4FBE9E4166085230033B4B4 /* AllSlabComponents.m */; };
+		D4FBE9E5166085230033B4B4 /* AllComponents.m in Sources */ = {isa = PBXBuildFile; fileRef = D4FBE9E4166085230033B4B4 /* AllComponents.m */; };
 		D4FBE9E7166091990033B4B4 /* test.sqlite3 in Resources */ = {isa = PBXBuildFile; fileRef = D4FBE9E6166091990033B4B4 /* test.sqlite3 */; };
 		D4FBE9EE1660955A0033B4B4 /* DoorConfigDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = D4FBE9E9166092D50033B4B4 /* DoorConfigDatabase.m */; };
 		D4FBE9EF1660956F0033B4B4 /* DoorConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = D4FBE9ED166094DA0033B4B4 /* DoorConfig.m */; };
@@ -161,8 +161,8 @@
 		D4FBE9DD16607F710033B4B4 /* slabComponents.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = slabComponents.plist; sourceTree = "<group>"; };
 		D4FBE9E0166084CF0033B4B4 /* DoorComponent.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DoorComponent.h; sourceTree = "<group>"; };
 		D4FBE9E1166084D80033B4B4 /* DoorComponent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DoorComponent.m; sourceTree = "<group>"; };
-		D4FBE9E3166085230033B4B4 /* AllSlabComponents.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AllSlabComponents.h; sourceTree = "<group>"; };
-		D4FBE9E4166085230033B4B4 /* AllSlabComponents.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AllSlabComponents.m; sourceTree = "<group>"; };
+		D4FBE9E3166085230033B4B4 /* AllComponents.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AllComponents.h; sourceTree = "<group>"; };
+		D4FBE9E4166085230033B4B4 /* AllComponents.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AllComponents.m; sourceTree = "<group>"; };
 		D4FBE9E6166091990033B4B4 /* test.sqlite3 */ = {isa = PBXFileReference; lastKnownFileType = file; path = test.sqlite3; sourceTree = "<group>"; };
 		D4FBE9E8166092D50033B4B4 /* DoorConfigDatabase.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DoorConfigDatabase.h; sourceTree = "<group>"; };
 		D4FBE9E9166092D50033B4B4 /* DoorConfigDatabase.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DoorConfigDatabase.m; sourceTree = "<group>"; };
@@ -291,8 +291,8 @@
 				659A84B01624095D00F1570C /* MainStoryboard_iPad.storyboard */,
 				D4FBE9E0166084CF0033B4B4 /* DoorComponent.h */,
 				D4FBE9E1166084D80033B4B4 /* DoorComponent.m */,
-				D4FBE9E3166085230033B4B4 /* AllSlabComponents.h */,
-				D4FBE9E4166085230033B4B4 /* AllSlabComponents.m */,
+				D4FBE9E3166085230033B4B4 /* AllComponents.h */,
+				D4FBE9E4166085230033B4B4 /* AllComponents.m */,
 				D4FBE9E8166092D50033B4B4 /* DoorConfigDatabase.h */,
 				D4FBE9E9166092D50033B4B4 /* DoorConfigDatabase.m */,
 				D4FBE9EC166094DA0033B4B4 /* DoorConfig.h */,
@@ -450,7 +450,7 @@
 				65DF4775164B95C1000E13F2 /* FRScrollView.m in Sources */,
 				65DF4778164B96F6000E13F2 /* FRImageView.m in Sources */,
 				D4FBE9E2166084D80033B4B4 /* DoorComponent.m in Sources */,
-				D4FBE9E5166085230033B4B4 /* AllSlabComponents.m in Sources */,
+				D4FBE9E5166085230033B4B4 /* AllComponents.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -15,7 +15,7 @@
 }
 
 + (DoorConfigDatabase*)database;
-- (NSDictionary *)doorConfigInfos:(DoorConfig *)currentChoices requestedType:(NSString *)desiredType;
+- (NSDictionary *)doorConfigInfo:(DoorConfig *)currentChoices requestedType:(NSString *)desiredType;
 
 
 

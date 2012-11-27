@@ -8,7 +8,7 @@
 
 #import <Foundation/Foundation.h>
 
-@interface AllSlabComponents : NSObject{
+@interface AllComponents : NSObject{
     NSArray *_slabComponentsArray;
     NSArray *_configComponentsArray;
     NSArray *_colorComponentsArray;

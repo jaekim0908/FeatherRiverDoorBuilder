@@ -6,10 +6,10 @@
 //  Copyright (c) 2012 Feather River. All rights reserved.
 //
 
-#import "AllSlabComponents.h"
+#import "AllComponents.h"
 #import "DoorComponent.h"
 
-@implementation AllSlabComponents
+@implementation AllComponents
 
 @synthesize slabComponentsArray = _slabComponentsArray;
 @synthesize configComponentsArray = _configComponentsArray;
@@ -19,11 +19,11 @@
 @synthesize jambComponentsArray = _jambComponentsArray;
 
 
-static AllSlabComponents *sharedInstance=nil;
+static AllComponents *sharedInstance=nil;
 
-+ (AllSlabComponents *)sharedInstance{
++ (AllComponents *)sharedInstance{
     if((sharedInstance) == nil){
-        sharedInstance = [[AllSlabComponents alloc] init];
+        sharedInstance = [[AllComponents alloc] init];
     }
     return sharedInstance;
 }

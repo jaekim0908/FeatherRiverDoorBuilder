@@ -7,7 +7,7 @@
 //
 // MHO ADDITIONAL COMMENT
 #import "FRAppDelegate.h"
-#import "AllSlabComponents.h"
+#import "AllComponents.h"
 #import "DoorConfigDatabase.h"
 #import "DoorConfig.h"
 
@@ -20,7 +20,7 @@
     // Override point for customization after application launch.
     //NSLog(@"MH: inside the delegate.");
     /*******
-    AllSlabComponents *slabComponentsSingleton = [AllSlabComponents sharedInstance];
+    AllComponents *slabComponentsSingleton = [AllComponents sharedInstance];
     
     //TEST - CONFIRM THE ARRAY IS POPULATED
     for(NSDictionary *slabComponentEntry in [slabComponentsSingleton componentsArray]){
@@ -45,7 +45,7 @@
     
     DoorConfig *currentChoices = [[DoorConfig alloc] init:slab color:color glass:glass sidelite:sidelite config:config jamb:jamb];
     
-    NSDictionary *validAndInvalidComponents = [[DoorConfigDatabase database] doorConfigInfos:currentChoices requestedType:@"glass"];
+    NSDictionary *validAndInvalidComponents = [[DoorConfigDatabase database] doorConfigInfo:currentChoices requestedType:@"glass"];
     
     NSArray *validComponents = [validAndInvalidComponents objectForKey:@"ValidComponents"];
     

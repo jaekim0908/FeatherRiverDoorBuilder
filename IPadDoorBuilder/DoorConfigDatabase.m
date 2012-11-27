@@ -8,7 +8,7 @@
 
 #import "DoorConfigDatabase.h"
 #import "DoorConfig.h"
-#import "AllSlabComponents.h"
+#import "AllComponents.h"
 
 @implementation DoorConfigDatabase
 
@@ -37,7 +37,7 @@ static DoorConfigDatabase *_database;
     return self;
 }
 
-- (NSDictionary *)doorConfigInfos:(DoorConfig *)currentChoices requestedType:(NSString *)desiredType {
+- (NSDictionary *)doorConfigInfo:(DoorConfig *)currentChoices requestedType:(NSString *)desiredType {
 
     //TO DO: change DB column from sidelites to sidelite
     //NSString *query = @"SELECT slab, color, glass, sidelites, jambs FROM door_config;";
@@ -77,7 +77,7 @@ static DoorConfigDatabase *_database;
     }
     
     //GET ALL SLAB COMPONENTS
-    AllSlabComponents *slabComponentsSingleton = [AllSlabComponents sharedInstance];
+    AllComponents *slabComponentsSingleton = [AllComponents sharedInstance];
     
     //LOOP THROUGH EACH COMPONENT AND PLACE IN EITHER THE VALID OR INVALID COMPONENT ARRAY
     NSMutableArray *validComponents = [NSMutableArray array];
