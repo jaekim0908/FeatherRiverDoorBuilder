@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>Type</key>
+		<string>jamb</string>
+		<key>Id</key>
+		<integer>1</integer>
+		<key>Description</key>
+		<string>Composite White</string>
+		<key>smallImagePath</key>
+		<string>somePath</string>
+		<key>largeImagePath</key>
+		<string>someOtherPath</string>
+	</dict>
+	<dict>
+		<key>Type</key>
+		<string>jamb</string>
+		<key>Id</key>
+		<integer>2</integer>
+		<key>Description</key>
+		<string>Pre-Colored Composite Light Oak</string>
+		<key>smallImagePath</key>
+		<string>somePath</string>
+		<key>largeImagePath</key>
+		<string>someOtherPath</string>
+	</dict>
+	<dict>
+		<key>Type</key>
+		<string>jamb</string>
+		<key>Id</key>
+		<integer>3</integer>
+		<key>Description</key>
+		<string>Pre-Colored Composite Medium Oak</string>
+		<key>smallImagePath</key>
+		<string>somePath</string>
+		<key>largeImagePath</key>
+		<string>someOtherPath</string>
+	</dict>
+	<dict>
+		<key>Type</key>
+		<string>jamb</string>
+		<key>Id</key>
+		<integer>4</integer>
+		<key>Description</key>
+		<string>Pre-Colored Composite Walnut Oak</string>
+		<key>smallImagePath</key>
+		<string>somePath</string>
+		<key>largeImagePath</key>
+		<string>someOtherPath</string>
+	</dict>
+	<dict>
+		<key>Type</key>
+		<string>jamb</string>
+		<key>Id</key>
+		<integer>5</integer>
+		<key>Description</key>
+		<string>Pre-Colored Composite Cherry</string>
+		<key>smallImagePath</key>
+		<string>somePath</string>
+		<key>largeImagePath</key>
+		<string>someOtherPath</string>
+	</dict>
+	<dict>
+		<key>Type</key>
+		<string>jamb</string>
+		<key>Id</key>
+		<integer>6</integer>
+		<key>Description</key>
+		<string>Pre-Colored Composite Chocolate</string>
+		<key>smallImagePath</key>
+		<string>somePath</string>
+		<key>largeImagePath</key>
+		<string>someOtherPath</string>
+	</dict>
+	<dict>
+		<key>Type</key>
+		<string>jamb</string>
+		<key>Id</key>
+		<integer>7</integer>
+		<key>Description</key>
+		<string>Pre-Colored Composite Chestnut</string>
+		<key>smallImagePath</key>
+		<string>somePath</string>
+		<key>largeImagePath</key>
+		<string>someOtherPath</string>
+	</dict>
+	<dict>
+		<key>Type</key>
+		<string>jamb</string>
+		<key>Id</key>
+		<integer>8</integer>
+		<key>Description</key>
+		<string>Hand Stained Fiberglass Composite Cherry</string>
+		<key>smallImagePath</key>
+		<string>somePath</string>
+		<key>largeImagePath</key>
+		<string>someOtherPath</string>
+	</dict>
+	<dict>
+		<key>Type</key>
+		<string>jamb</string>
+		<key>Id</key>
+		<integer>9</integer>
+		<key>Description</key>
+		<string>Hand Stained Fiberglass Composite Chestnut</string>
+		<key>smallImagePath</key>
+		<string>somePath</string>
+		<key>largeImagePath</key>
+		<string>someOtherPath</string>
+	</dict>
+</array>
+</plist>

@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>Type</key>
+		<string>slab</string>
+		<key>Id</key>
+		<integer>1</integer>
+		<key>Description</key>
+		<string>3/4 Lite</string>
+		<key>smallImagePath</key>
+		<string>somePath</string>
+		<key>largeImagePath</key>
+		<string>someOtherPath</string>
+	</dict>
+	<dict>
+		<key>Type</key>
+		<string>slab</string>
+		<key>Id</key>
+		<integer>2</integer>
+		<key>Description</key>
+		<string>3/4 Oval</string>
+		<key>smallImagePath</key>
+		<string>somePath</string>
+		<key>largeImagePath</key>
+		<string>someOtherPath</string>
+	</dict>
+	<dict>
+		<key>Type</key>
+		<string>slab</string>
+		<key>Id</key>
+		<integer>3</integer>
+		<key>Description</key>
+		<string>Center Arch</string>
+		<key>smallImagePath</key>
+		<string>somePath</string>
+		<key>largeImagePath</key>
+		<string>someOtherPath</string>
+	</dict>
+	<dict>
+		<key>Type</key>
+		<string>slab</string>
+		<key>Id</key>
+		<integer>4</integer>
+		<key>Description</key>
+		<string>Craftsman Rectangle</string>
+		<key>smallImagePath</key>
+		<string>somePath</string>
+		<key>largeImagePath</key>
+		<string>someOtherPath</string>
+	</dict>
+	<dict>
+		<key>Type</key>
+		<string>slab</string>
+		<key>Id</key>
+		<integer>5</integer>
+		<key>Description</key>
+		<string>Fanlite</string>
+		<key>smallImagePath</key>
+		<string>somePath</string>
+		<key>largeImagePath</key>
+		<string>someOtherPath</string>
+	</dict>
+	<dict>
+		<key>Type</key>
+		<string>slab</string>
+		<key>Id</key>
+		<integer>6</integer>
+		<key>Description</key>
+		<string>Full Lite</string>
+		<key>smallImagePath</key>
+		<string>somePath</string>
+		<key>largeImagePath</key>
+		<string>someOtherPath</string>
+	</dict>
+	<dict>
+		<key>Type</key>
+		<string>slab</string>
+		<key>Id</key>
+		<integer>7</integer>
+		<key>Description</key>
+		<string>Half Lite</string>
+		<key>smallImagePath</key>
+		<string>somePath</string>
+		<key>largeImagePath</key>
+		<string>someOtherPath</string>
+	</dict>
+</array>
+</plist>

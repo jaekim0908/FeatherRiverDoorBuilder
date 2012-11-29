@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>Type</key>
+		<string>color</string>
+		<key>Id</key>
+		<integer>1</integer>
+		<key>Description</key>
+		<string>Painted White Mahogany</string>
+		<key>smallImagePath</key>
+		<string>somePath</string>
+		<key>largeImagePath</key>
+		<string>someOtherPath</string>
+	</dict>
+	<dict>
+		<key>Type</key>
+		<string>color</string>
+		<key>Id</key>
+		<integer>2</integer>
+		<key>Description</key>
+		<string>Prefinished Cherry Mahogany</string>
+		<key>smallImagePath</key>
+		<string>somePath</string>
+		<key>largeImagePath</key>
+		<string>someOtherPath</string>
+	</dict>
+	<dict>
+		<key>Type</key>
+		<string>color</string>
+		<key>Id</key>
+		<integer>3</integer>
+		<key>Description</key>
+		<string>Prefinished Chestnut Mahogany</string>
+		<key>smallImagePath</key>
+		<string>somePath</string>
+		<key>largeImagePath</key>
+		<string>someOtherPath</string>
+	</dict>
+	<dict>
+		<key>Type</key>
+		<string>color</string>
+		<key>Id</key>
+		<integer>4</integer>
+		<key>Description</key>
+		<string>Prefinished Chocolate Mahogany</string>
+		<key>smallImagePath</key>
+		<string>somePath</string>
+		<key>largeImagePath</key>
+		<string>someOtherPath</string>
+	</dict>
+	<dict>
+		<key>Type</key>
+		<string>color</string>
+		<key>Id</key>
+		<integer>5</integer>
+		<key>Description</key>
+		<string>Prefinished Light Oak Woodgrain</string>
+		<key>smallImagePath</key>
+		<string>somePath</string>
+		<key>largeImagePath</key>
+		<string>someOtherPath</string>
+	</dict>
+	<dict>
+		<key>Type</key>
+		<string>color</string>
+		<key>Id</key>
+		<integer>6</integer>
+		<key>Description</key>
+		<string>Prefinished Medium Oak Woodgrain</string>
+		<key>smallImagePath</key>
+		<string>somePath</string>
+		<key>largeImagePath</key>
+		<string>someOtherPath</string>
+	</dict>
+	<dict>
+		<key>Type</key>
+		<string>color</string>
+		<key>Id</key>
+		<integer>7</integer>
+		<key>Description</key>
+		<string>Prefinished Walnut Oak Woodgrain</string>
+		<key>smallImagePath</key>
+		<string>somePath</string>
+		<key>largeImagePath</key>
+		<string>someOtherPath</string>
+	</dict>
+	<dict>
+		<key>Type</key>
+		<string>color</string>
+		<key>Id</key>
+		<integer>8</integer>
+		<key>Description</key>
+		<string>Unfinished Tan Oak Woodgrain</string>
+		<key>smallImagePath</key>
+		<string>somePath</string>
+		<key>largeImagePath</key>
+		<string>someOtherPath</string>
+	</dict>
+	<dict>
+		<key>Type</key>
+		<string>color</string>
+		<key>Id</key>
+		<integer>9</integer>
+		<key>Description</key>
+		<string>Smooth White (Unfinished)</string>
+		<key>smallImagePath</key>
+		<string>somePath</string>
+		<key>largeImagePath</key>
+		<string>someOtherPath</string>
+	</dict>
+</array>
+</plist>

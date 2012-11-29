@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>Type</key>
+		<string>config</string>
+		<key>Id</key>
+		<integer>1</integer>
+		<key>Description</key>
+		<string>Single Door</string>
+		<key>smallImagePath</key>
+		<string>somePath</string>
+		<key>largeImagePath</key>
+		<string>someOtherPath</string>
+	</dict>
+	<dict>
+		<key>Type</key>
+		<string>config</string>
+		<key>Id</key>
+		<integer>2</integer>
+		<key>Description</key>
+		<string>Single Door with One Sidelite on Left</string>
+		<key>smallImagePath</key>
+		<string>somePath</string>
+		<key>largeImagePath</key>
+		<string>someOtherPath</string>
+	</dict>
+	<dict>
+		<key>Type</key>
+		<string>config</string>
+		<key>Id</key>
+		<integer>3</integer>
+		<key>Description</key>
+		<string>Single Door with One Sidelite on Right</string>
+		<key>smallImagePath</key>
+		<string>somePath</string>
+		<key>largeImagePath</key>
+		<string>someOtherPath</string>
+	</dict>
+	<dict>
+		<key>Type</key>
+		<string>config</string>
+		<key>Id</key>
+		<integer>4</integer>
+		<key>Description</key>
+		<string>Single Door with Two Sidelites</string>
+		<key>smallImagePath</key>
+		<string>somePath</string>
+		<key>largeImagePath</key>
+		<string>someOtherPath</string>
+	</dict>
+	<dict>
+		<key>Type</key>
+		<string>config</string>
+		<key>Id</key>
+		<integer>5</integer>
+		<key>Description</key>
+		<string>Double Door</string>
+		<key>smallImagePath</key>
+		<string>somePath</string>
+		<key>largeImagePath</key>
+		<string>someOtherPath</string>
+	</dict>
+</array>
+</plist>
