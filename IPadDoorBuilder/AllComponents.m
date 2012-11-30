@@ -11,12 +11,12 @@
 
 @implementation AllComponents
 
-@synthesize slabComponentsArray = _slabComponentsArray;
-@synthesize configComponentsArray = _configComponentsArray;
-@synthesize colorComponentsArray = _colorComponentsArray;
-@synthesize glassComponentsArray = _glassComponentsArray;
-@synthesize sideliteComponentsArray = _sideliteComponentsArray;
-@synthesize jambComponentsArray = _jambComponentsArray;
+@synthesize slabComponentsArray = _slabComponentsDict;
+@synthesize configComponentsArray = _configComponentsDict;
+@synthesize colorComponentsArray = _colorComponentsDict;
+@synthesize glassComponentsArray = _glassComponentsDict;
+@synthesize sideliteComponentsArray = _sideliteComponentsDict;
+@synthesize jambComponentsArray = _jambComponentsDict;
 
 
 static AllComponents *sharedInstance=nil;
@@ -42,6 +42,7 @@ static AllComponents *sharedInstance=nil;
          NSString *pathOfJambComponentsFile = [[NSBundle mainBundle] pathForResource:@"jambComponents" ofType:@"plist"];
         
         //POPULATE THE ARRAY WITH THE CONTENTS OF THE PLIST
+        //self.slabComponentsArray = [NSArray arrayWithContentsOfFile:pathOfSlabComponentsFile];
         self.slabComponentsArray = [NSArray arrayWithContentsOfFile:pathOfSlabComponentsFile];
         self.configComponentsArray = [NSArray arrayWithContentsOfFile:pathOfConfigComponentsFile];
         self.colorComponentsArray = [NSArray arrayWithContentsOfFile:pathOfColorComponentsFile];

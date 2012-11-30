@@ -59,7 +59,8 @@ static DoorConfigDatabase *_database;
     sqlite3_stmt *statement;
     int rc;
     
-    NSMutableArray *validComponentIds = [NSMutableArray array];
+    //NSMutableArray *validComponentIds = [NSMutableArray array];
+    NSMutableDictionary *validComponentIds = [NSMutableDictionary dictionary];
     
     //CREATE THE ARRAY OF VALID COMPONENT IDS
     if ((rc = sqlite3_prepare_v2(_databaseConn, [query UTF8String], -1, &statement, nil)) == SQLITE_OK){
@@ -71,7 +72,7 @@ static DoorConfigDatabase *_database;
             NSNumber *wrappedComponentId = [NSNumber numberWithInt:componentId];
             
             //add componentId to array of valid component Ids
-            [validComponentIds addObject:wrappedComponentId];
+            [validComponentIds setObject:wrappedComponentId forKey:wrappedComponentId];
         }
         sqlite3_finalize(statement);
     }
@@ -80,8 +81,7 @@ static DoorConfigDatabase *_database;
     AllComponents *slabComponentsSingleton = [AllComponents sharedInstance];
     
     //LOOP THROUGH EACH COMPONENT AND PLACE IN EITHER THE VALID OR INVALID COMPONENT ARRAY
-    NSMutableArray *validComponents = [NSMutableArray array];
-    NSMutableArray *invalidComponents = [NSMutableArray array];
+   
     NSArray *componentsArray;
     
     //ASSIGN THE componentsArray TO THE PROPER COMPONENT ARRAY BASED ON THE SPECIFIED desiredType
@@ -106,24 +106,24 @@ static DoorConfigDatabase *_database;
             
     //LOOP THROUGH ALL OF THE COMPONENTS AND PLACE THE VALID COMPONENTS IN ONE ARRAY
     //AND THE INVALID COMPONENTS IN THE OTHER
+    NSMutableDictionary *validComponents = [NSMutableDictionary dictionary];
+    NSMutableDictionary *invalidComponents = [NSMutableDictionary dictionary];
+    
     for (NSDictionary *componentEntry in componentsArray){
         
-        BOOL populateValidComponentsArray=FALSE;
-        id componentId = [componentEntry valueForKey:@"Id"];
+        //BOOL populateValidComponentsArray=FALSE;
+        NSNumber *key = [componentEntry valueForKey:@"Id"];
         
-        for (NSNumber *validComponentId in validComponentIds) {
-            if ([validComponentId intValue] == [componentId intValue]) {
-                populateValidComponentsArray=TRUE;
-                break;
-            }
-        }
+        NSLog(@"key:%@",[key stringValue]);
         
-        if(populateValidComponentsArray){
-            [validComponents addObject:componentEntry];
+        if ([validComponentIds objectForKey:key] ) {
+            [validComponents setObject:componentEntry forKey:key];
         }
         else{
-            [invalidComponents addObject:componentEntry];
+            [invalidComponents setObject:componentEntry forKey:key];
         }
+    
+
     }
     
     NSMutableDictionary *validAndInvalidComponents = [[NSMutableDictionary alloc] init];
