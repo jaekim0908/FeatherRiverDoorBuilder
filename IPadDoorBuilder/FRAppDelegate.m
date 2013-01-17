@@ -47,16 +47,19 @@
     
     NSDictionary *validAndInvalidComponents = [[DoorConfigDatabase database] doorConfigInfo:currentChoices requestedType:@"glass"];
     
-    NSArray *validComponents = [validAndInvalidComponents objectForKey:@"ValidComponents"];
+    NSDictionary *validComponents = [validAndInvalidComponents objectForKey:@"ValidComponents"];
     
-    for (NSDictionary *validComponentEntry in validComponents){
-        NSLog(@"VALID COMPONENTS:%@",[validComponentEntry valueForKey:@"Description"]);
+    
+    for (NSNumber *key in validComponents){
+        NSDictionary *myEntry = [validComponents objectForKey:key];
+        NSLog(@"VALID COMPONENTS:%@",[myEntry valueForKey:@"Description"]);
     }
     
-    NSArray *invalidComponents = [validAndInvalidComponents objectForKey:@"InvalidComponents"];
+    NSDictionary *invalidComponents = [validAndInvalidComponents objectForKey:@"InvalidComponents"];
     
-    for (NSDictionary *invalidComponentEntry in invalidComponents){
-        NSLog(@"INVALID COMPONENTS:%@",[invalidComponentEntry valueForKey:@"Description"]);
+    for (NSNumber *key in invalidComponents){
+        NSDictionary *myEntry = [invalidComponents objectForKey:key];
+        NSLog(@"INVALID COMPONENTS:%@",[myEntry valueForKey:@"Description"]);
     }
     
  /********

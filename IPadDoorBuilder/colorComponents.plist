@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
-<array>
+<dict>
+	<key>1</key>
 	<dict>
 		<key>Type</key>
 		<string>color</string>
@@ -14,6 +15,7 @@
 		<key>largeImagePath</key>
 		<string>someOtherPath</string>
 	</dict>
+	<key>2</key>
 	<dict>
 		<key>Type</key>
 		<string>color</string>
@@ -26,6 +28,7 @@
 		<key>largeImagePath</key>
 		<string>someOtherPath</string>
 	</dict>
+	<key>3</key>
 	<dict>
 		<key>Type</key>
 		<string>color</string>
@@ -38,18 +41,15 @@
 		<key>largeImagePath</key>
 		<string>someOtherPath</string>
 	</dict>
-	<dict>
-		<key>Type</key>
+	<key>4</key>
+	<array>
 		<string>color</string>
-		<key>Id</key>
 		<integer>4</integer>
-		<key>Description</key>
 		<string>Prefinished Chocolate Mahogany</string>
-		<key>smallImagePath</key>
 		<string>somePath</string>
-		<key>largeImagePath</key>
 		<string>someOtherPath</string>
-	</dict>
+	</array>
+	<key>5</key>
 	<dict>
 		<key>Type</key>
 		<string>color</string>
@@ -62,6 +62,7 @@
 		<key>largeImagePath</key>
 		<string>someOtherPath</string>
 	</dict>
+	<key>6</key>
 	<dict>
 		<key>Type</key>
 		<string>color</string>
@@ -74,6 +75,7 @@
 		<key>largeImagePath</key>
 		<string>someOtherPath</string>
 	</dict>
+	<key>7</key>
 	<dict>
 		<key>Type</key>
 		<string>color</string>
@@ -86,6 +88,7 @@
 		<key>largeImagePath</key>
 		<string>someOtherPath</string>
 	</dict>
+	<key>8</key>
 	<dict>
 		<key>Type</key>
 		<string>color</string>
@@ -98,6 +101,7 @@
 		<key>largeImagePath</key>
 		<string>someOtherPath</string>
 	</dict>
+	<key>9</key>
 	<dict>
 		<key>Type</key>
 		<string>color</string>
@@ -110,5 +114,5 @@
 		<key>largeImagePath</key>
 		<string>someOtherPath</string>
 	</dict>
-</array>
+</dict>
 </plist>
