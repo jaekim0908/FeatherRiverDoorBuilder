@@ -15,6 +15,7 @@
 @synthesize itemName = _itemName;
 @synthesize itemId = _itemId;
 @synthesize targetImageView = _targetImageView;
+@synthesize imageName = _imageName;
 
 - (id)initWithFrame:(CGRect)frame
 {
@@ -34,10 +35,11 @@
     //NSAssert(self.item_name != NULL, @"Item Name is null in FRImageView");
     //NSAssert(self.item_id >= 0, @"Item Id is not set in FRImageView");
     NSLog(@"tagetImageView = %@", self.targetImageView);
-    NSLog(@"comp_type = %@", self.compType);
+    NSLog(@"comp_type = %i", self.compType);
     NSLog(@"item_name = %@", self.itemName);
     NSLog(@"item_id = %i", self.itemId);
-    [self.doorBuilder setUserChoice:self.compType withItemId:self.itemId toTargetImageView:self.targetImageView];
+    NSLog(@"image name = %@", self.imageName);
+    [self.doorBuilder setUserChoice:self.compType withItemId:self.itemId toTargetImageView:self.targetImageView withImage:self.imageName];
 }
 
 /*

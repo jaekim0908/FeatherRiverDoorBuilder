@@ -22,6 +22,7 @@
 		6529C29016560AFC004A8D32 /* SIDELITE13.png in Resources */ = {isa = PBXBuildFile; fileRef = 6529C28116560AFB004A8D32 /* SIDELITE13.png */; };
 		6529C29116560AFC004A8D32 /* SIDELITE14.png in Resources */ = {isa = PBXBuildFile; fileRef = 6529C28216560AFB004A8D32 /* SIDELITE14.png */; };
 		6529C29216560AFC004A8D32 /* SIDELITE15.png in Resources */ = {isa = PBXBuildFile; fileRef = 6529C28316560AFC004A8D32 /* SIDELITE15.png */; };
+		65308C08167B2341002D9A20 /* SD-Images in Resources */ = {isa = PBXBuildFile; fileRef = 65308C07167B2341002D9A20 /* SD-Images */; };
 		653554441640FB6800E6E5C6 /* box.png in Resources */ = {isa = PBXBuildFile; fileRef = 653554431640FB6800E6E5C6 /* box.png */; };
 		6535547E1649818600E6E5C6 /* LAK243bLO.png in Resources */ = {isa = PBXBuildFile; fileRef = 653554711649818600E6E5C6 /* LAK243bLO.png */; };
 		6535547F1649818600E6E5C6 /* LAK243bMO.png in Resources */ = {isa = PBXBuildFile; fileRef = 653554721649818600E6E5C6 /* LAK243bMO.png */; };
@@ -53,6 +54,7 @@
 		659A84AC1624095D00F1570C /* FRModelController.m in Sources */ = {isa = PBXBuildFile; fileRef = 659A84AB1624095D00F1570C /* FRModelController.m */; };
 		659A84AF1624095D00F1570C /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 659A84AD1624095D00F1570C /* MainStoryboard_iPhone.storyboard */; };
 		659A84B21624095D00F1570C /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 659A84B01624095D00F1570C /* MainStoryboard_iPad.storyboard */; };
+		65ABE24C169579BA00BD7CAD /* CoreImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65ABE24B169579BA00BD7CAD /* CoreImage.framework */; };
 		65DB9E14165B47B400D5765F /* App-Bty-LAK430bMO.png in Resources */ = {isa = PBXBuildFile; fileRef = 65DB9E0E165B47B400D5765F /* App-Bty-LAK430bMO.png */; };
 		65DB9E15165B47B400D5765F /* App-Bty-MED248bCY.png in Resources */ = {isa = PBXBuildFile; fileRef = 65DB9E0F165B47B400D5765F /* App-Bty-MED248bCY.png */; };
 		65DB9E16165B47B400D5765F /* App-Bty-MOR425zCS.png in Resources */ = {isa = PBXBuildFile; fileRef = 65DB9E10165B47B400D5765F /* App-Bty-MOR425zCS.png */; };
@@ -99,6 +101,7 @@
 		6529C28116560AFB004A8D32 /* SIDELITE13.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SIDELITE13.png; sourceTree = "<group>"; };
 		6529C28216560AFB004A8D32 /* SIDELITE14.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SIDELITE14.png; sourceTree = "<group>"; };
 		6529C28316560AFC004A8D32 /* SIDELITE15.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SIDELITE15.png; sourceTree = "<group>"; };
+		65308C07167B2341002D9A20 /* SD-Images */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "SD-Images"; sourceTree = "<group>"; };
 		653554431640FB6800E6E5C6 /* box.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = box.png; sourceTree = "<group>"; };
 		653554711649818600E6E5C6 /* LAK243bLO.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = LAK243bLO.png; sourceTree = "<group>"; };
 		653554721649818600E6E5C6 /* LAK243bMO.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = LAK243bMO.png; sourceTree = "<group>"; };
@@ -140,6 +143,7 @@
 		659A84AB1624095D00F1570C /* FRModelController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FRModelController.m; sourceTree = "<group>"; };
 		659A84AE1624095D00F1570C /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
 		659A84B11624095D00F1570C /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
+		65ABE24B169579BA00BD7CAD /* CoreImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreImage.framework; path = System/Library/Frameworks/CoreImage.framework; sourceTree = SDKROOT; };
 		65DB9E0E165B47B400D5765F /* App-Bty-LAK430bMO.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "App-Bty-LAK430bMO.png"; sourceTree = "<group>"; };
 		65DB9E0F165B47B400D5765F /* App-Bty-MED248bCY.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "App-Bty-MED248bCY.png"; sourceTree = "<group>"; };
 		65DB9E10165B47B400D5765F /* App-Bty-MOR425zCS.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "App-Bty-MOR425zCS.png"; sourceTree = "<group>"; };
@@ -181,6 +185,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				65ABE24C169579BA00BD7CAD /* CoreImage.framework in Frameworks */,
 				D4FBE9F4166097230033B4B4 /* libsqlite3.dylib in Frameworks */,
 				659A84931624095D00F1570C /* UIKit.framework in Frameworks */,
 				659A84951624095D00F1570C /* Foundation.framework in Frameworks */,
@@ -194,6 +199,7 @@
 		659A84831624095C00F1570C = {
 			isa = PBXGroup;
 			children = (
+				65ABE24B169579BA00BD7CAD /* CoreImage.framework */,
 				D4FBE9F3166097230033B4B4 /* libsqlite3.dylib */,
 				65DB9E1B165B4AE900D5765F /* LARGE_SITELITE1.png */,
 				65DB9E0E165B47B400D5765F /* App-Bty-LAK430bMO.png */,
@@ -305,6 +311,7 @@
 		659A84991624095D00F1570C /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				65308C07167B2341002D9A20 /* SD-Images */,
 				659A849A1624095D00F1570C /* IPadDoorBuilder-Info.plist */,
 				659A849B1624095D00F1570C /* InfoPlist.strings */,
 				659A849E1624095D00F1570C /* main.m */,
@@ -427,6 +434,7 @@
 				D4FBE9FF16615CE50033B4B4 /* glassComponents.plist in Resources */,
 				D4FBEA0116615DEA0033B4B4 /* sideliteComponents.plist in Resources */,
 				D4FBEA0316615EE20033B4B4 /* jambComponents.plist in Resources */,
+				65308C08167B2341002D9A20 /* SD-Images in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

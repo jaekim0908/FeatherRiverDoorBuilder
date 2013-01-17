@@ -16,8 +16,13 @@ NSString *const GlassType = @"Glass";
 NSString *const SlabType  = @"Slab";
 NSString *const SideLiteType = @"Sidelite";
 
+@synthesize slabOnlyName = _slabOnlyName;
+@synthesize glassOnlyName = _glassOnlyName;
+@synthesize doorFinishTypeName = _doorFinshTypeName;
+@synthesize siteLiteName = _siteLiteName;
+@synthesize prePaintColorName = prePaintColorName;
+@synthesize camingName = _camingName;
 @synthesize configType = _configType;
-@synthesize glassType = _glassType;
 
 +(FRDoorConfiguration *) createDoorConfigurationSingleton {
     @synchronized([FRDoorConfiguration class]) {
@@ -33,11 +38,35 @@ NSString *const SideLiteType = @"Sidelite";
 -(id) init {
     
     if (self = [super init]) {
-        self.configType = -1;
-        self.glassType = -1;
+        self.slabOnlyName = nil;
+        self.glassOnlyName = nil;
+        self.doorFinishTypeName = nil;
+        self.siteLiteName = nil;
+        self.prePaintColorName = nil;
+        self.camingName = nil;
     }
     
     return self;
+}
+
+-(void) reset {
+    self.configType = no_configuration;
+    self.slabOnlyName = nil;
+    self.glassOnlyName = nil;
+    self.doorFinishTypeName = nil;
+    self.siteLiteName = nil;
+    self.prePaintColorName = nil;
+    self.camingName = nil;
+}
+
+-(void) print {
+    NSLog(@"==================================================");
+    NSLog(@"slab only name = %@", self.slabOnlyName);
+    NSLog(@"glass only name = %@", self.glassOnlyName);
+    NSLog(@"door finish type name = %@", self.doorFinishTypeName);
+    NSLog(@"caming name = %@", self.camingName);
+    NSLog(@"pre-paint name = %@", self.prePaintColorName);
+    NSLog(@"==================================================");
 }
 
 @end

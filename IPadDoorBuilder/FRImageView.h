@@ -14,9 +14,10 @@
 @interface FRImageView : UIImageView
 
 @property (strong, nonatomic) FRDoorBuilderViewController *doorBuilder;
-@property (strong, nonatomic) NSString *compType;
 @property (strong, nonatomic) NSString *itemName;
 @property (strong, nonatomic) UIImageView *targetImageView;
+@property (strong, nonatomic) NSString *imageName;
+@property int compType;
 @property int itemId;
 
 @end
